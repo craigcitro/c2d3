@@ -1,0 +1,34 @@
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.bar:hover rect {
+  fill: maroon;
+}
+
+.bar:hover text {
+  fill: black;
+}
+
+.middle {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.axis text {
+  font: 10px sans-serif;
+  fill: black;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
