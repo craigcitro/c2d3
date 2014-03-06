@@ -28,6 +28,12 @@ other than just my laptop. `:D`
   definitely think the colorbrewer stuff is prettier, and my partly-colorblind
   officemate heartily agrees.
 
+* [d3 for HTML](http://www.macwright.org/2013/07/07/d3-for-html.html) is this
+  great post by tom macwright where he points out that the pattern used for
+  mapping data -> svg elements in d3 works just as well when you want to do
+  data -> divs/list items in pure html. then he builds out an awesome address
+  book app on d3.
+
 ## podcasts/videos
 
 there were two really nice interviews on data stories:
