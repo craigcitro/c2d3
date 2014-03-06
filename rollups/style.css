@@ -14,10 +14,6 @@ body {
   shape-rendering: crispEdges;
 }
 
-/* .x.axis path { */
-/*   display: none; */
-/* } */
-
 .y.gridline line {
   fill: none;
   stroke: #aaa;
@@ -27,7 +23,6 @@ body {
 .line {
   fill: none;
   stroke: steelblue;
-  /* stroke-width: 1.5px; */
 }
 
 .linegroup path {
@@ -57,33 +52,3 @@ body {
   stroke: transparent;
   stroke-width: 24px;
 }
-
-/* .chart rect { */
-/*   fill: steelblue; */
-/* } */
-
-/* .chart text { */
-/*   fill: white; */
-/*   font: 10px sans-serif; */
-/*   text-anchor: middle; */
-/* } */
-
-/* .bar:hover rect { */
-/*   fill: maroon; */
-/* } */
-
-/* .bar:hover text { */
-/*   fill: black; */
-/* } */
-
-/* .axis text { */
-/*   font: 10px sans-serif; */
-/*   fill: black; */
-/* } */
-
-/* .axis path, */
-/* .axis line { */
-/*   fill: none; */
-/*   stroke: #000; */
-/*   shape-rendering: crispEdges; */
-/* } */
