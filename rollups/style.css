@@ -1,0 +1,89 @@
+.middle {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+/* .x.axis path { */
+/*   display: none; */
+/* } */
+
+.y.gridline line {
+  fill: none;
+  stroke: #aaa;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  /* stroke-width: 1.5px; */
+}
+
+.linegroup path {
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  stroke-width: 1.5px;
+}
+
+.linegroup:hover path {
+  stroke-width: 2.5px;
+}
+
+.line.q0{stroke:rgb(228,26,28)}
+.line.q1{stroke:rgb(55,126,184)}
+.line.q2{stroke:rgb(77,175,74)}
+.line.q3{stroke:rgb(152,78,163)}
+.line.q4{stroke:rgb(255,127,0)}
+.line.q5{stroke:rgb(255,255,51)}
+.line.q6{stroke:rgb(166,86,40)}
+.line.q7{stroke:rgb(247,129,191)}
+.line.q8{stroke:rgb(153,153,153)}
+
+.line.blank {
+  /* display: none; */
+  stroke: transparent;
+  stroke-width: 24px;
+}
+
+/* .chart rect { */
+/*   fill: steelblue; */
+/* } */
+
+/* .chart text { */
+/*   fill: white; */
+/*   font: 10px sans-serif; */
+/*   text-anchor: middle; */
+/* } */
+
+/* .bar:hover rect { */
+/*   fill: maroon; */
+/* } */
+
+/* .bar:hover text { */
+/*   fill: black; */
+/* } */
+
+/* .axis text { */
+/*   font: 10px sans-serif; */
+/*   fill: black; */
+/* } */
+
+/* .axis path, */
+/* .axis line { */
+/*   fill: none; */
+/*   stroke: #000; */
+/*   shape-rendering: crispEdges; */
+/* } */
