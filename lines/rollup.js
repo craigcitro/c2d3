@@ -80,7 +80,7 @@ function drawChart() {
       var colorClass = 'q' + i;
       var lineGroup = svg.append('g')
           .attr('class', 'linegroup')
-          .on('click', function(d, i) {
+          .on('dblclick', function(d, i) {
             // TODO(craigcitro): this is so overkill. also classList
             // isn't always supported.
             var oldClass = d3.set(d3.event.target.classList)
