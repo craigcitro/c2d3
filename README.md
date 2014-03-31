@@ -4,6 +4,10 @@ this isn't anything serious -- just a bunch of little examples and notes to
 myself as i learn d3. chris was interested in this, so now it's somewhere
 other than just my laptop. `:D`
 
+it's hard to resist the awesomeness of good d3 galleries like
+[this](http://d3js.org/), and also
+[this](https://github.com/mbostock/d3/wiki/Gallery).
+
 ## links
 
 * [thinking with joins](http://bost.ocks.org/mike/join/) explains the data
